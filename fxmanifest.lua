@@ -1,8 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
-lua54 'yes'
-author 'Kakarot'
-description 'Housing system for players using shells and furniture items to decorate their homes'
+
+description 'QB-Houses'
 version '2.2.0'
 
 ui_page 'html/index.html'
@@ -38,6 +37,8 @@ files {
 dependencies {
     'qb-core',
     'qb-interior',
-    'qb-clothing',
+    -- 'qb-clothing',
     'qb-weathersync'
 }
+
+lua54 'yes'
